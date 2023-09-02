@@ -1,3 +1,3 @@
 
 
-export default () => 'fature 1';
+export default () => 'feature 1';

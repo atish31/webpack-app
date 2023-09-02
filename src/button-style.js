@@ -1,10 +1,10 @@
 const { greatest } = require("d3");
 
-const redrotroom = "color: red;";
-const bluerotroom = "color: blue;"
+const red = "color: red;";
+const blue = "color: blue;"
 
-const getColor = color => `color: ${color}`;
+const makeColorStyle = color => `color: ${color}`;
 
-exports.redrotroom = redrotroom;
-exports.bluerotroom = bluerotroom;
-exports.getColor = getColor;
+exports.red = red;
+exports.blue = blue;
+exports.makeColorStyle = makeColorStyle;
